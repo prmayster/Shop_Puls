@@ -1,0 +1,36 @@
+@import 'base/variables';
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+@import 'blocks/promo';
+@import 'blocks/header';
+@import 'blocks/buttons';
+@import 'blocks/advantages'; 
+@import 'blocks/consutacion'; 
+@import 'blocks/title';
+@import 'blocks/forms';
+@import 'blocks/media';
