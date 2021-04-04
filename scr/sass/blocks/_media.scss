@@ -1,7 +1,151 @@
 @media (max-width: 1024px) {
     .header {
         max-width: 1023px;
-        background: #000;
     }
 
 }
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 700px;
+        &__description {
+            max-width: 250px;
+        }
+    }
+ }
+
+ @media (max-width: 425px) {
+    .container {
+        max-width: 400px;
+        .header {  
+        &__official span {
+            font-size: 10px;
+    }
+        &__contacts {
+        margin-left: 10px;
+    }
+        &__phon {
+        font-size: 12px;
+    }
+        .button {
+        width: 125px;
+        height: 25px;
+        margin-top: 5px;
+    }
+    }
+    .promo__header {
+            font-size: 32px;
+        }
+    .promo__subheader {
+            font-size: 18px;
+        }
+    .promo__icons {
+        width: 390px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .button_main {
+        margin-top: 50px;
+    }
+    .advantages__wrapper {
+        flex-direction:  column;
+        justify-content: center;
+
+    }
+    .advantages__icons {
+        max-width: 400px;
+    }
+    .advantages__icons img{
+        margin-top: 35px;
+    }
+    .consutacion {
+        max-height: 370px;
+    }
+    .title_left {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .feed-form input {
+        height: 40px;
+    }
+    }    
+}
+
+@media (max-width: 375px) {
+    .container {
+        max-width: 350px;
+        .header {  
+        &__official span {
+            display: none;
+    }
+    }
+    .promo__header {
+            font-size: 25px;
+        }
+    .promo__subheader {
+            font-size: 14px;
+        }
+    .promo__icons {
+        width: 325px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .button_main {
+        margin-top: 50px;
+    }
+    .advantages__wrapper {
+        flex-direction:  column;
+        justify-content: center;
+
+    }
+    .advantages__icons {
+        max-width: 400px;
+    }
+    .advantages__icons img{
+        margin-top: 35px;
+    }
+    .consutacion {
+        max-height: 370px;
+    }
+    .title_left {
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .consutacion__descr {
+        font-size: 15px;
+    }
+    .feed-form input {
+        height: 40px;
+    }
+    }    
+} 
+
+@media (max-width: 320px) {
+    .container {
+        max-width: 300px;
+        .header {  
+        &__official {
+            display: none;
+        }
+        span {
+            display: none;
+    }
+    }
+    .promo__header {
+            font-size: 25px;
+            line-height: 30px;
+        }
+    .promo__subheader {
+            font-size: 14px;
+        }
+    .promo__icons {
+        width: 310px;
+        justify-content: center;
+        margin-top: 20px;
+        font-size: 12px;
+    }
+    .feed-form {
+        width: 250px;
+    }
+    }    
+} 
