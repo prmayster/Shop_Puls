@@ -31,4 +31,12 @@
         text-align: center;
         color: #FFFFFF;
     }
+    &_mini {
+        width: 135px;
+        height: 44px;
+        font-size: 14px;
+        &:hover {
+            box-shadow: 3px 3px 20px rgba(119, 119, 119, 0.658);
+        }
+    }
 }
